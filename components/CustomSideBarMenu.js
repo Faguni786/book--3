@@ -7,7 +7,7 @@ import firebase from 'firebase';
 export default class CustomSideBarMenu extends Component{
   render(){
     return(
-      <View style={{flex:1}}>
+      <View style={{flex:1}}> 
         <View style={styles.drawerItemsContainer}>
           <DrawerItems {...this.props}/>
         </View>

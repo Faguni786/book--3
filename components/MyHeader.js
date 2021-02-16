@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
-import { Header,Icon,Badge } from 'react-native-elements';
-import { View, Text, StyeSheet ,Alert} from 'react-native';
+//import { Header,Icon,Badge } from 'react-native-elements';
+import { View, Text, StyeSheet ,Alert, Header,Icon,Badge} from 'react-native';
 
 const MyHeader = props => {
   return (

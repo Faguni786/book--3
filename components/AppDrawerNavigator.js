@@ -1,6 +1,7 @@
 import React from 'react';
+import { useWindowDimensions } from 'react-native';
 import {createDrawerNavigator} from 'react-navigation-drawer';
-import { AppTabNavigator } from './AppTabNavigator'
+import { AppTabNavigator } from './AppTabNaviagator'
 import CustomSideBarMenu  from './CustomSideBarMenu';
 
 export const AppDrawerNavigator = createDrawerNavigator({
